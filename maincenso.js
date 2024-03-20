@@ -7,7 +7,6 @@ let categoriacontador = [
     {categoria: "Hombre", monto: 1}
 ]
 
-
 let padronGenero;
 let padronEdad;
 
@@ -33,8 +32,6 @@ categoriacontador[padronGenero]++;
 }
 
 } while(padronGenero.toUpperCase !== "siguiente");
-
-
 
 function calcularCantidadGenero () {
     
